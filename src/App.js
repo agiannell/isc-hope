@@ -1,9 +1,12 @@
-import './App.css';
+import './styles/App.css';
+import Header from './Components/Header'
+import routes from './routes'
 
 const App = () => {
   return (
     <section>
-      <h1>App</h1>
+      <Header />
+      { routes }
     </section>
   );
 }
